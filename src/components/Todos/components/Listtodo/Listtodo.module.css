@@ -1,0 +1,71 @@
+.textBlue {
+    color: var(--blue);
+}
+
+.textPurple {
+    color: var(--purple);
+}
+
+/* Listagem */
+
+.list .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+
+.list .header .infoCounter {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.list .header .infoCounter .description {
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.list .header .infoCounter .badge {
+    display: block;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    background-color: var(--gray-400);
+    font-size: 0.75rem;
+    color: var(--gray-200);
+}
+
+
+.list .items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 1.5rem;
+}
+
+
+
+.emptyContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4rem;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--gray-400);
+
+}
+
+.emptyContainer .info {
+    width: 100%;
+    text-align: center;
+
+    padding-top: 1rem;
+}
+
+.emptyContainer .emptyIcon {
+    height: 3.5rem;
+}
